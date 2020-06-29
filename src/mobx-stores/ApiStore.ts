@@ -7,7 +7,7 @@ const MODE_TYPE: Record<IMode, IMode> = {
   REMOTE: 'REMOTE',
 };
 const { API_MODE } = process.env;
-const REMOTE_URL = window.location.origin;
+const REMOTE_URL = "http://68.183.127.234:3001/";
 
 export type IUrl =
   | 'AUTH_TOKEN'
