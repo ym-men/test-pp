@@ -55,13 +55,13 @@ function makeApp(app) {
             next();
         }
     });
-    if (process.env.NODE_ENV === 'production') {
+    // if (process.env.NODE_ENV === 'production') {
         const p = path_1.resolve(__dirname, '..', '..', 'build');
         app.use(express.static(p));
         app.use((req, res) => {
             fs.createReadStream(path_1.resolve(p, 'index.html')).pipe(res);
         });
-    }
+    // }
 }
 exports.makeApp = makeApp;
 //# sourceMappingURL=mocks.js.map
