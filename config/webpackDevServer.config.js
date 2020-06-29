@@ -13,7 +13,7 @@ const proxy = proxyConfig;
 const allowedHost = urls.lanUrlForConfig;
 
 const ignoredFiles = require('react-dev-utils/ignoredFiles');
-const host = process.env.HOST || '0.0.0.0';
+const host = process.env.HOST || 'localhost';
 
 module.exports = function() {
   return {
