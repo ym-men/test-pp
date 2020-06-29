@@ -1,0 +1,25 @@
+@import "./styles/normalize.styl"
+@import "./styles/variables.styl"
+
+html
+  overflow: auto
+
+body
+  font-family: $fontFamily;
+  font-size: $fontSizeDefault;
+  color: Basic1000;
+
+:global
+  a:focus
+    outline: none;
+
+  .react-calendar__tile--hasActive,
+  .react-calendar__tile--active
+    &,
+    &:enabled
+      &,
+      &:hover,
+      &:focus
+        background: Yellow400;
+        color: Basic1000;
+

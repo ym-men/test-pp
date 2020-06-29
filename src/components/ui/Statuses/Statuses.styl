@@ -1,0 +1,79 @@
+.status
+
+  .icon
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+  &.approved
+    color: Green600;
+
+    .icon
+      background-color: Green600;
+      color: Basic100;
+
+  &.rejected
+    color: Red600;
+
+    .icon
+      background-color: Red600;
+      color: Basic100;
+
+  &.approving
+
+    .icon
+      display: none;
+
+  &.archive
+    color: Basic400;
+
+    .icon
+      display: none;
+
+.controlStatus
+  &.ppi_approving
+    color: $approvedColor;
+
+  &.ppi_fix
+    color: $rejectedColor;
+
+.orderStatus
+
+  .icon
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+  &.approved
+    color: Green600;
+
+    .icon
+      background-color: Green600;
+      color: Basic100;
+
+  &.rejected
+    color: Red600;
+
+    .icon
+      background-color: Red600;
+      color: Basic100;
+
+  &.approving
+
+    .icon
+      background-color: transparent;
+      color: Basic100;
+
+  &.archive
+    color: Basic400;
+
+    .icon
+      background-color: Basic100;
+      color: Basic100;
+
+.statusIconContainer {
+  min-width: 25px;
+  align-items: flex-start;  
+}      

@@ -1,0 +1,34 @@
+.orderListLink
+  color Basic1000
+  text-decoration none
+  border 1px solid transparent
+
+  & + .boxOrderStyle
+    border 1px solid transparent
+    border-top 0
+
+  &:hover,
+  &:hover + .boxOrderStyle
+    border-color Basic1000
+
+.orderTitle 
+  width 70%
+
+.actionAllowed {
+  overflow visible
+  position: relative
+
+  &.status {
+    &:before {
+      content: '';
+      display: block;
+      position absolute;
+      width: 10px;
+      height: 10px;
+      border-radius 50%;
+      background-color #ffca00;
+      top: 55px;
+      left: -25px;
+    }
+  }
+}

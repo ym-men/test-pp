@@ -1,0 +1,136 @@
+.baseTableContainer {
+    border-collapse:separate
+    border-spacing: 0 5px
+
+    span {
+      white-space: normal;
+      max-width: 100%;
+      word-wrap: break-word;
+      word-break: normal;
+    }
+
+    td {
+      padding-left: 12px;
+      text-align: left;
+    }
+
+    tbody {
+      td:first-child {
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+      td:last-child {
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-bottom-right-radius: 2px;
+        border-top-right-radius: 2px;
+      }
+      td {
+        border-style solid
+        border-width 1px 0
+        border-color transparent
+        background Basic200
+
+        > div {
+          height: auto;
+          min-height: 50px;
+          padding: 10px 0px;
+          justify-content: center;
+        }
+      }
+    }
+
+    .sorted {
+      span {
+        color: Basic1000;
+      }
+    }
+
+    .header {
+      flex-flow: row;
+      user-select: none;
+
+      .icon {
+        margin-left: 5px;
+      }
+    }
+}
+
+.clickable {
+  &:hover {
+    td {
+      border-color: Basic1000;
+      cursor: pointer;
+    }
+  }
+}
+
+.actionAllowed {
+  td {
+    overflow visible;
+    position: relative;
+  }
+
+  td:first-child:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ffca00;
+    border-radius: 10px;
+    left: -25px;
+    top: calc(50% - 5px);
+  }
+}
+
+.tableBorderDottedStyle {
+  td {
+    border-top 1px dashed Basic400;
+  }
+}
+
+$nestedMargin = 20px;
+$spaceBetweenRows = 4px;
+
+nestingLevel(n) {
+  transform: translate(n * $nestedMargin, 0);
+  -webkit-transform: translate(n * $nestedMargin, 0);
+  -moz-transform: translate(n * $nestedMargin, 0);
+
+  td:first-child > div:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: ($nestedMargin - 6px);
+    height: 50%;
+    border-bottom: 1px solid Grey600;
+    border-left: 1px solid Grey600;
+    border-radius: 0px 0px 0px 4px;
+    background-color: rgba(0,0,0,0);
+    top: 0;
+    left: -($nestedMargin - 4px);
+  }
+}
+
+.nestingLevel-1 {
+  nestingLevel(1);
+}
+
+.nestingLevel-2 {
+  nestingLevel(2);
+}
+
+.nestingLevel-3 {
+  nestingLevel(3);
+}
+
+.nestingLevel-4 {
+  nestingLevel(4);
+}
+
+.rowSpacer {
+  height: $spaceBetweenRows;
+}

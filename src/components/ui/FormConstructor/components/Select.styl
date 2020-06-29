@@ -1,0 +1,52 @@
+.select
+
+  button:disabled
+    background Basic200
+    border-color Basic400
+    color Basic600
+
+    cursor default;
+
+    input
+      color Basic600
+
+    svg
+      opacity .4
+
+  &.inlineSelect
+    cursor default
+
+    input
+      color Basic600
+
+    svg
+      opacity .4
+
+
+.selectInline
+
+
+  &.selectInlineError
+    border: Red600 1px solid;
+
+  button
+    letter-spacing 0
+
+    &:disabled
+      cursor: pointer;
+      background Basic200
+      border-color Basic400
+      color Basic600
+
+
+.inlineSelectItem
+  padding 5px 18px
+  background-color: Basic100;
+  cursor: pointer;
+
+  &:hover
+    background-color: Basic400
+
+.inlineSelectWrapper
+  border 1px solid Basic400
+

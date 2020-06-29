@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-mobx",
+    "tslint-plugin-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  },
+  "rules": {
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-console": [
+      true,
+      "warning"
+    ],
+    "no-namespace": false,
+    "no-reference": false,
+    "array-type": false,
+    "variable-name": false,
+    "interface-over-type-literal": false,
+    "no-debugger": false,
+    "jsx-no-lambda": false,
+    "no-empty-interface": false,
+    "prettier": [
+      true,
+      {
+        "printWidth": 100,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "semi": true,
+        "trailingComma": "es5",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "arrowParens": "avoid",
+        "proseWrap": "never"
+      }
+    ]
+  }
+}

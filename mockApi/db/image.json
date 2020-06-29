@@ -1,0 +1,40 @@
+{
+  "15b1803d1ba6fb5c61322d9ec29d60ac": {
+    "size": 80000,
+    "name": "rosNeft_contract.jpeg",
+    "extension": "jpg",
+    "date": "2019-01-29T15:25:46.981Z",
+    "id": "15b1803d1ba6fb5c61322d9ec29d60ac"
+  },
+  "e2ccdb66f5c963542e935d15b1b1515a": {
+    "size": 278964,
+    "name": "rosNeft_order.jpg",
+    "extension": "jpg",
+    "date": "2019-04-04T14:27:48.272Z",
+    "id": "e2ccdb66f5c963542e935d15b1b1515a"
+  },
+  "f8bfd69e-a4f9-16d2-229c-f059d2e71e0b": {
+    "name": "right-arrow.svg",
+    "size": 1578,
+    "date": "2020-06-29T19:32:25.204Z",
+    "id": "f8bfd69e-a4f9-16d2-229c-f059d2e71e0b",
+    "pending": true,
+    "modified": "2020-06-29T19:32:25.204Z"
+  },
+  "9c6c1c86-c58a-b96f-8109-0c66cc714b4d": {
+    "name": "right-arrow.svg",
+    "size": 1578,
+    "date": "2020-06-29T20:09:09.952Z",
+    "id": "9c6c1c86-c58a-b96f-8109-0c66cc714b4d",
+    "pending": false,
+    "modified": "2020-06-29T20:09:11.954Z"
+  },
+  "0d494cc5-d137-c15d-a4ce-4315e85ee599": {
+    "name": "right-arrow.svg",
+    "size": 1578,
+    "date": "2020-06-29T20:09:29.821Z",
+    "id": "0d494cc5-d137-c15d-a4ce-4315e85ee599",
+    "pending": true,
+    "modified": "2020-06-29T20:09:29.821Z"
+  }
+}

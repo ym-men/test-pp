@@ -1,0 +1,64 @@
+$sizeStepRound = 26px
+
+.steps
+  display: flex;
+
+.step
+  display: flex;
+  position: relative;
+  height: 69px;
+  align-items: flex-end;
+  user-select none
+
+  & .rightStep
+    padding-left: 7px;
+    height: $sizeStepRound;
+    line-height: $sizeStepRound;
+    font-size $fontSizeMedium
+    color: Basic400
+
+
+  & .leftStep
+    width: $sizeStepRound;
+    height: $sizeStepRound;
+    font-size: $fontSizeMedium;
+    background-color: Basic100
+    display: flex;
+    text-align: center;
+    border: solid 1.5px Basic400;
+    border-radius: 50%;
+    margin: 1px;
+    justify-content center
+    color: Basic400
+
+    &:before
+      position: absolute;
+      display: block;
+      height: 43px;
+      width: 0px;
+      margin-left: 11px;
+      content: ' ';
+      bottom: $sizeStepRound + 1px;
+      border-right: 1.5px Basic300 solid;
+
+  &.first
+    align-items: flex-start;
+    height: auto;
+
+    & .leftStep:before
+      display: none;
+
+  &.selected
+    cursor: default;
+
+    & .leftStep
+      background-color: Yellow600;
+      border: solid 1.5px Basic1000;
+      color: Basic1000;
+
+    & .rightStep
+      color: Basic1000;
+
+  &.disabled
+    color: Basic400;
+    cursor: default;

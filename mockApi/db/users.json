@@ -1,0 +1,136 @@
+{
+  "v4d3todme": {
+    "password": "123123123",
+    "token": "v4d3todme",
+    "data": {
+      "firstName": "ООО РНС-Нефтеюганск",
+      "lastName": "- Куратор договора",
+      "personId": "v4d3todme",
+      "email": "buyer",
+      "businessRoles": [
+        "BUYER_CURATOR"
+      ]
+    },
+    "id": "v4d3todme",
+    "pending": false,
+    "modified": "2020-06-29T19:58:23.548Z"
+  },
+  "dgsfasfasdf": {
+    "password": "123123123",
+    "token": "dgsfasfasdf",
+    "data": {
+      "firstName": "ПАО ЧТПЗ",
+      "lastName": "- Менеджер клиента",
+      "personId": "dgsfasfasdf",
+      "email": "manager",
+      "businessRoles": [
+        "CUSTOMER_MANAGER"
+      ]
+    },
+    "id": "dgsfasfasdf",
+    "pending": true,
+    "modified": "2020-06-29T20:05:37.988Z"
+  },
+  "dgsfasfasd2f": {
+    "password": "123123123",
+    "token": "",
+    "data": {
+      "firstName": "ООО РНС-Нефтеюганск",
+      "lastName": "- Менеджер службы качества",
+      "personId": "dgsfasfasd2f",
+      "email": "manager-quality",
+      "businessRoles": [
+        "BUYER_QUALITY_MANAGER"
+      ]
+    }
+  },
+  "dasd": {
+    "password": "123123123",
+    "token": "dasd",
+    "data": {
+      "firstName": "Buyer",
+      "lastName": "Inspector",
+      "personId": "dasd",
+      "email": "buyer-inspector",
+      "businessRoles": [
+        "BUYER_INSPECTOR"
+      ]
+    }
+  },
+  "wgeswethjer": {
+    "password": "123123123",
+    "token": "wgeswethjer",
+    "data": {
+      "firstName": "ООО Самарский ИТЦ",
+      "lastName": "- Инспектор по качеству",
+      "personId": "wgeswethjer",
+      "email": "outsideInspector",
+      "businessRoles": [
+        "OUTSIDE_INSPECTOR"
+      ]
+    },
+    "id": "wgeswethjer",
+    "pending": false,
+    "modified": "2020-06-29T18:46:23.186Z"
+  },
+  "wgeswethjer1": {
+    "password": "123123123",
+    "token": "wgeswethjer1",
+    "data": {
+      "firstName": "ООО РНС-Нефтеюганск",
+      "lastName": "- Менеджер службы качества",
+      "personId": "wgeswethjer1",
+      "email": "buyerQualityManager",
+      "businessRoles": [
+        "BUYER_QUALITY_MANAGER"
+      ]
+    },
+    "id": "wgeswethjer1",
+    "pending": false,
+    "modified": "2019-06-05T09:21:17.300Z"
+  },
+  "iiooriotitfsd": {
+    "password": "123123123",
+    "token": "iiooriotitfsd",
+    "data": {
+      "firstName": "ООО РНС-Нефтеюганск",
+      "lastName": "- Инспектор входного контроля",
+      "personId": "iiooriotitfsd",
+      "email": "buyer-operator",
+      "businessRoles": [
+        "BUYER_OPERATOR"
+      ]
+    },
+    "id": "iiooriotitfsd",
+    "pending": false,
+    "modified": "2019-06-05T09:19:47.769Z"
+  },
+  "qwertyuioasdfghzxcvbnm": {
+    "password": "123123123",
+    "token": "qwertyuioasdfghzxcvbnm",
+    "data": {
+      "companyId": 4,
+      "firstName": "ПАО ЧТПЗ",
+      "lastName": "- Менеджер клиента",
+      "personId": "qwertyuioasdfghzxcvbnm",
+      "email": "manager_chelpipe",
+      "businessRoles": [
+        "CUSTOMER_MANAGER"
+      ]
+    }
+  },
+  "poiuytrkjhgfmnbvc": {
+    "password": "123123123",
+    "token": "poiuytrkjhgfmnbvc",
+    "data": {
+      "companyId": 3,
+      "firstName": "АО ОМК",
+      "lastName": "- Менеджер клиента",
+      "personId": "poiuytrkjhgfmnbvc",
+      "email": "manager_omk",
+      "businessRoles": [
+        "CUSTOMER_MANAGER"
+      ]
+    }
+  }
+}
