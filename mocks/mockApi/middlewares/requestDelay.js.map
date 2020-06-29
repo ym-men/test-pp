@@ -1,0 +1,1 @@
+{"version":3,"file":"requestDelay.js","sourceRoot":"","sources":["../../../mockApi/middlewares/requestDelay.ts"],"names":[],"mappings":";;AAEa,QAAA,YAAY,GAAG,CAAC,GAAY,EAAE,GAAa,EAAE,IAAkB,EAAE,EAAE;IAC9E,IAAI,GAAG,CAAC,MAAM,KAAK,KAAK,EAAE;QACxB,IAAI,EAAE,CAAC;KACR;SAAM;QACL,UAAU,CAAC,IAAI,EAAE,IAAI,CAAC,CAAC;KACxB;AACH,CAAC,CAAC"}

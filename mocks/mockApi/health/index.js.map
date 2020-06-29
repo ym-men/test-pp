@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../mockApi/health/index.ts"],"names":[],"mappings":";;AAEA,kBAAe;IACb;QACE,OAAO,EAAE,MAAM;QACf,GAAG,EAAE,aAAa;QAClB,GAAG,EAAE,GAAG,EAAE;YACR,OAAO,OAAO,CAAC,OAAO,CAAC,IAAI,CAAC,CAAC;QAC/B,CAAC;KACF;CACiB,CAAC"}

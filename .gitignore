@@ -10,7 +10,6 @@ mockApi/**/*.js
 mockApi/**/*.js.map
 src/**/*.js
 src/**/*.js.map
-mocks
 
 # testing
 /coverage

@@ -1,0 +1,1 @@
+{"version":3,"file":"storage.js","sourceRoot":"","sources":["../../../mockApi/contracts/storage.ts"],"names":[],"mappings":";;AAAA,wCAAqC;AACrC,+BAA+B;AAC/B,iCAA+B;AAIlB,QAAA,OAAO,GAAG,IAAI,iBAAO,CAChC,cAAO,CAAC,SAAS,EAAE,KAAK,EAAE,IAAI,EAAE,gBAAgB,CAAC,CAClD,CAAC;AAEW,QAAA,mBAAmB,GAAoD,GAAG,EAAE,CACvF,eAAO,CAAC,MAAM,EAAE,CAAC,IAAI,CAAC,cAAM,CAAC,CAAC"}
